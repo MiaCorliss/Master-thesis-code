@@ -1,0 +1,56 @@
+######################################
+CLUTCH_INFORMATION_HASNA.CSV and CLUTCH_INFORMATION_NONA.CSV Column explanations
+######################################
+
+	BroodID: The identification number of the brood
+	FemaleRing: The mother's ring number
+	MaleRing: The father's ring number
+	ClutchSize: Size of the cltuch
+	EggNumber: The number of eggs at the visit with the most egg measurements for that clutch
+
+######################################
+CROPPED_HAS_NAS.CSV  Column explanations
+######################################
+
+###BROOD DESCRIPTION###
+	BroodID: The identification number of the brood
+	SiteNo: The identification number of the site
+	SiteName: The full name of the site as seen in the database
+	Season: The year of the brood
+	Time: The time of the visit
+	LayingDate: The date the brood was started
+	DaysAfterJan1: The number of days after Jan 1 of that year that the brood was started (AKA when did they start the clutch?)
+	VisitDate: The date of the visit
+	Visit: The visit number
+	ClutchSize: The total number of eggs laid in that clutch
+
+###EGG###
+	EggNo: The number on the egg/The number assigned to the egg
+	EggRank: The laying order of the eggs, 1 is the first laid
+	EggLength: The length of the egg in mm
+	EggWidth: The width of the egg in mm
+	EggVolume: Volume of egg in cm^3, calculated using formula for a prolate ellipsoid (4/3 * pi * (half of length) * ((half of width)^2))
+	EggMass: The mass of the egg in grams that day
+	CrossfosteredToday: Was this clutch crossfostered during this visit?
+	Crossfostered: Has this clutch experienced crossfostering yet? 
+
+###FEMALE COLOR###
+	BellyPointNo: How many points are on that female's belly that year?
+	BellyPointAvg: What is the average size of ten points on the female belly that year?
+	BreastPointNo: How many points are on that female's breast that year?
+	BreastPointAvg: What is the average size of ten points on that female's breast that year?
+	TotalPoints: Total number of points on breast and belly
+	TotalAvgPoints: Average size of all the points on the breast and belly
+
+###OWL DETAILS###
+	WingLength: Length of the female's wing from wrist to primary tips, in mm
+	FemaleRing: The mother's ring number
+	MaleRing: The father's ring number
+	YF: Age of the female (mother)
+	YM: Age of the male (father)
+	YearlingF: Is the female a yearling?
+	YearlingM: is the male a yearling?
+
+###WEATHER###
+	Last30Temp: The average temperature of the 30 days before the laying date in C°
+	Last30Precip: The total precipitation of the 30 days before the laying date in mm
